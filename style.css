@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #111;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 300px;
+  height: 180px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  margin-bottom: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.somali { color: #1E90FF; }
+.kenya { color: #B22222; }
+.ethiopia { color: #228B22; }
+.uganda { color: #FFD700; }
+.tanzania { color: #2E8B57; }
+.rwanda { color: #4169E1; }
+.burundi { color: #DC143C; }
+.djibouti { color: #20B2AA; }
+.eritrea { color: #B22222; }
+.southsudan { color: #191970; }
+.nigeria { color: #008000; }
+.ghana { color: #DAA520; }
+.liberia { color: #B22222; }
+.mali { color: #FFD700; }
+.senegal { color: #228B22; }
+.niger { color: #FF8C00; }
+.gambia { color: #00008B; }
+.egypt { color: #800000; }
+.algeria { color: #006400; }
+.morocco { color: #B22222; }
+.tunisia { color: #FF0000; }
+.libya { color: #006400; }
+.southafrica { color: #000000; }
+.botswana { color: #1E90FF; }
+.sudan { color: #228B22; }
