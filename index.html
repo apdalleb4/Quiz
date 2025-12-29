@@ -1,88 +1,456 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <h1>African Countries and Their Flags</h1>
-
-  <h2 class="somali">Somalia</h2>
-  <img src="./download (27).jpg" alt="Somalia Flag">
-
-  <h2 class="kenya">Kenya</h2>
-  <img src="./download.png" alt="Kenya Flag">
-
-  <h2 class="ethiopia">Ethiopia</h2>
-  <img src="./download (1).png" alt="Ethiopia Flag">
-
-  <h2 class="uganda">Uganda</h2>
-  <img src="./download (2).png" alt="Uganda Flag">
-
-  <h2 class="tanzania">Tanzania</h2>
-  <img src="./download (3).png" alt="Tanzania Flag">
-
-  <h2 class="rwanda">Rwanda</h2>
-  <img src="./download (4).png" alt="Rwanda Flag">
-
-  <h2 class="burundi">Burundi</h2>
-  <img src="./download (5).png" alt="Burundi Flag">
-
-  <h2 class="djibouti">Djibouti</h2>
-  <img src="./download (6).png" alt="Djibouti Flag">
-
-  <h2 class="eritrea">Eritrea</h2>
-  <img src="./download (7).png" alt="Eritrea Flag">
-
-  <h2 class="southsudan">South Sudan</h2>
-  <img src="./download (8).png" alt="South Sudan Flag">
-
-  <h2 class="nigeria">Nigeria</h2>
-  <img src="./download (9).png" alt="Nigeria Flag">
-
-  <h2 class="ghana">Ghana</h2>
-  <img src="./download (11).png" alt="Ghana Flag">
-
-  <h2 class="liberia">Liberia</h2>
-  <img src="./download (12).png" alt="Liberia Flag">
-
-  <h2 class="mali">Mali</h2>
-  <img src="./download (13).png" alt="Mali Flag">
-
-  <h2 class="senegal">Senegal</h2>
-  <img src="./download (14).png" alt="Senegal Flag">
-
-  <h2 class="niger">Niger</h2>
-  <img src="./download (15).png" alt="Niger Flag">
-
-  <h2 class="gambia">Gambia</h2>
-  <img src="./download (16).png" alt="Gambia Flag">
-
-  <h2 class="egypt">Egypt</h2>
-  <img src="./download (17).png" alt="Egypt Flag">
-
-  <h2 class="algeria">Algeria</h2>
-  <img src="./download (18).png" alt="Algeria Flag">
-
-  <h2 class="morocco">Morocco</h2>
-  <img src="./download (19).png" alt="Morocco Flag">
-
-  <h2 class="tunisia">Tunisia</h2>
-  <img src="./download (20).png" alt="Tunisia Flag">
-
-  <h2 class="libya">Libya</h2>
-  <img src="./download (21).png" alt="Libya Flag">
-
-  <h2 class="southafrica">South Africa</h2>
-  <img src="./download (22).png" alt="South Africa Flag">
-
-  <h2 class="botswana">Botswana</h2>
-  <img src="./download (23).png" alt="Botswana Flag">
-
-  <h2 class="sudan">Sudan</h2>
-  <img src="./download (24).png" alt="Sudan Flag">
-
-</body>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eng apdalla Portfolio</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link rel="stylesheet" href="https://Eng apdalla Portfolio">
+  <link rel="stylesheet" href="style.css">
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+ </head>
+ <body class="dark-mode">
+  <div class="page-wrapper">
+   <nav class="navbar"><!-- Logo -->
+    <div class="logo-container">
+     <div class="logo">
+      <span class="logo-badge"><img src="" alt=""</span>
+     </div>
+    </div><!-- Mobile Menu Toggle --> <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle menu"> <span></span> <span></span> <span></span> </button> <!-- Center Navigation Links -->
+    <ul class="nav-links" id="nav-links">
+     <li><a href="#home">Home</a></li>
+     <li><a href="#projects">Projects</a></li>
+     <li><a href="#about">About</a></li
+     <li><a href="#certifications">Certifications</a></li>
+     <li><a href="#reviews">Client Reviews</a></li>
+     <li><a href="#contact">Contact</a></li>
+    </ul><!-- Right Side Controls -->
+    <div class="nav-controls">
+        <!-- Theme Toggle --> 
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" onclick="toggleTheme()"> 
+            <span id="theme-icon">🌙</span> 
+            </button> 
+            <!-- Resume Button --> 
+            <a href="" class="resume-btn" id="resume-btn">Resume</a>
+    </div>
+   </nav><!-- Hero Section -->
+   <section class="hero-section" id="home">
+    <div class="hero-container"><!-- Left Side - Text Content -->
+     <div class="hero-content">
+      <div class="hero-greeting" id="hero-greeting">
+       Hello, I'm
+      </div>
+      <h1 class="hero-title"<span class="typing-text" id="">Eng apdalla Ibrahim Ali </span></h1>
+      <p class="hero-description" id="hero-description">Full Stack Web Developer & Graphic Designer creating beautiful digital experiences with modern technologies and creative solutions</p>
+     </div><!-- Right Side - Image -->
+     <div class="hero-images">
+      <div class="image-wrapper">
+       <div class="image-one"><span class="emoji-one"><img src="./facebook pict.jpg" alt=""></span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- About Section -->
+   <section class="about-section scroll-animate" id="about">
+    <div class="about-container"><!-- Left Side - About Content -->
+     <div class="about-content fade-in-left">
+      <div>
+       <h2 class="section-title" id="about-title">About Me</h2>
+       <p class="section-subtitle" id="about-subtitle">Passionate creator blending code and design</p>
+      </div>
+      <p class="about-text" id="about-intro-text">I'm Eng apdalla, a versatile Full Stack Web Developer and Graphic Designer with a passion for creating beautiful, functional digital experiences. I believe great design and clean code go hand in hand.</p><!-- Skills List -->
+      <div class="skills-list"><!-- Development Skill -->
+       <div class="skill-item">
+        <div class="skill-header">
+         <div class="skill-icon">
+          💻
+         </div>
+         <h3 class="skill-title" id="skill-dev-title">Full Stack Development</h3>
+        </div>
+        <p class="skill-description" id="skill-dev-text">Building robust web applications with modern frameworks and technologies. From frontend to backend, I create seamless digital solutions.</p>
+        <div class="skill-tags"><span class="tag">React</span> <span class="tag">Node.js</span> <span class="tag">MongoDB</span> <span class="tag">APIs</span>
+        </div>
+       </div><!-- Design Skill -->
+       <div class="skill-item">
+        <div class="skill-header">
+         <div class="skill-icon">
+          🎨
+         </div>
+         <h3 class="skill-title" id="skill-design-title">Graphic Design</h3>
+        </div>
+        <p class="skill-description" id="skill-design-text">Crafting eye-catching visuals and brand identities. I transform ideas into stunning designs that communicate and inspire.</p>
+        <div class="skill-tags"><span class="tag">UI/UX</span> <span class="tag">Branding</span> <span class="tag">Illustrations</span> <span class="tag">Typography</span>
+        </div>
+       </div>
+      </div>
+     </div><!-- Right Side - About Image -->
+     <div class="about-image-wrapper fade-in-right">
+      <div class="about-image-container">
+       <div class="about-image"><span class="about-emoji">🚀</span>
+       </div>
+       <div class="image-decoration decoration-1"></div>
+       <div class="image-decoration decoration-2"></div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Projects Section -->
+   <section class="projects-section scroll-animate" id="projects">
+    <div class="projects-container">
+     <div class="section-header scale-in">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">Explore my creative work across different domains</p>
+     </div><!-- Filter Buttons -->
+     <div class="filter-buttons fade-in-left"><button class="filter-btn active" data-filter="all">All</button> <button class="filter-btn" data-filter="programming">Programming</button> <button class="filter-btn" data-filter="wordpress">WordPress/Shopify</button> <button class="filter-btn" data-filter="graphic">Graphic</button>
+     </div><!-- Projects Grid -->
+     <div class="projects-grid" id="projects-grid"><!-- Programming Project 1 -->
+      <div class="project-card stagger-animate" data-category="programming">
+       <div class="project-image">
+        <img src="./assets/ecomrace website.png" alt="E-Commerce Platform" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Programming</span>
+        <h3 class="project-title">E-Commerce Platform</h3>
+        <p class="project-description">A full-featured online shopping platform with cart, checkout, and payment integration.</p>
+        <div class="project-tags"><span class="project-tag">React</span> <span class="project-tag">Node.js</span> <span class="project-tag">Stripe</span>
+        </div><a href="https://worldnest.shop" target="_blank" class="project-btn">View Project →</a>
+       </div>
+      </div><!-- Programming Project 2 -->
+      <div class="project-card" data-category="programming">
+       <div class="project-image">
+        <img src="./download (20).jpg" alt="Portfolio Website" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Programming</span>
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-description">Modern and responsive portfolio showcasing projects with smooth animations.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span> <span class="project-tag">CSS</span> <span class="project-tag">JavaScript</span>
+        </div><a href="https://saleha-ten.vercel.app/" target="_blank" class="project-btn">View Project →</a>
+       </div>
+      </div><!-- Programming Project 3 -->
+      <div class="project-card" data-category="programming">
+       <div class="project-image">
+        <img src="./download (2).jpg" alt="Fitness Tracker Website" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Programming</span>
+        <h3 class="project-title">Fitness Tracker Website</h3>
+        <p class="project-description">Modern fitness tracking web application with workout logging, progress charts, and goal management.</p>
+        <div class="project-tags"><span class="project-tag">React</span> <span class="project-tag">JavaScript</span> <span class="project-tag">Fitness</span>
+        </div><a href="https://fitness-flax-three.vercel.app/" target="_blank" class="project-btn">View Project →</a>
+       </div>
+      </div><!-- WordPress Project 1 -->
+      <div class="project-card" data-category="wordpress">
+       <div class="project-image">
+        <img src="./download (24).jpg" alt="Discovery Air Travel Website" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">WordPress</span>
+        <h3 class="project-title">Discovery Air Travel Website</h3>
+        <p class="project-description">Professional travel agency website built with WordPress featuring tour packages, booking system, and responsive design.</p>
+        <div class="project-tags"><span class="project-tag">WordPress</span> <span class="project-tag">Travel</span> <span class="project-tag">Booking System</span>
+        </div><a href="https://discoveryair.pk/" target="_blank" class="project-btn">View Project →</a>
+       </div>
+      </div><!-- Graphic Project 1 -->
+      <div class="project-card" data-category="graphic">
+       <div class="project-image">
+        <img src="./images (15).jpg" alt="Wolfexa Logo Design" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Graphic</span>
+        <h3 class="project-title">Wolfexa Logo Design</h3>
+        <p class="project-description">Professional logo design for Wolfexa featuring modern typography and sleek visual identity.</p>
+        <div class="project-tags"><span class="project-tag">Logo Design</span> <span class="project-tag">Branding</span> <span class="project-tag">Identity</span>
+        </div><a href="https://wolfexa.com" target="_blank" class="project-btn">View Project →</a>
+       </div>
+      </div><!-- Graphic Project 2 -->
+      <div class="project-card" data-category="graphic">
+       <div class="project-image">
+        <img src="./download (7).jpg" alt="Trimark Logo Design" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Graphic</span>
+        <h3 class="project-title">Trimark Logo Design</h3>
+        <p class="project-description">Professional logo design for Trimark featuring dynamic branding and modern visual identity.</p>
+        <div class="project-tags"><span class="project-tag">Logo Design</span> <span class="project-tag">Branding</span> <span class="project-tag">Corporate Identity</span>
+        </div><button class="project-btn">View Project →</button>
+       </div>
+      </div><!-- Web Project 3 -->
+      <div class="project-card" data-category="programming">
+       <div class="project-image">
+        <img src="./assets/multitool website.png" alt="Multi-Tool Website" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Programming</span>
+        <h3 class="project-title">Multi-Tool Website</h3>
+        <p class="project-description">Comprehensive web application featuring multiple useful tools and utilities in one platform.</p>
+        <div class="project-tags"><span class="project-tag">React</span> <span class="project-tag">JavaScript</span> <span class="project-tag">Tools</span>
+        </div><a href="https://multi-tools-cyan.vercel.app/" target="_blank" class="project-btn">View Project →</a>
+       </div>
+      </div><!-- Graphic Project 3 -->
+      <div class="project-card" data-category="graphic">
+       <div class="project-image">
+        <img src="./assets/3rdDesign.jpeg" alt="Markhur Energy Drink Design" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Graphic</span>
+        <h3 class="project-title">Markhur Energy Drink Design</h3>
+        <p class="project-description">Dynamic product design for Markhur energy drink featuring bold graphics and energetic branding.</p>
+        <div class="project-tags"><span class="project-tag">Product Design</span> <span class="project-tag">Packaging</span> <span class="project-tag">Branding</span>
+        </div><button class="project-btn">View Project →</button>
+       </div>
+      </div><!-- Graphic Project 4 -->
+      <div class="project-card" data-category="graphic">
+       <div class="project-image">
+        <img src="./assets/4rthDesign.jpeg" alt="Markhur Energy Drink Packaging" class="project-img">
+       </div>
+       <div class="project-content"><span class="project-category">Graphic</span>
+        <h3 class="project-title">Markhur Energy Drink Packaging</h3>
+        <p class="project-description">Creative packaging design for Markhur energy drink with eye-catching visuals and modern appeal.</p>
+        <div class="project-tags"><span class="project-tag">Packaging Design</span> <span class="project-tag">Product Design</span> <span class="project-tag">Visual Identity</span>
+        </div><button class="project-btn">View Project →</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Certifications Section -->
+   <section class="certifications-section scroll-animate" id="certifications">
+    <div class="certifications-container">
+     <div class="section-header scale-in">
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-subtitle">Verified credentials from reputable institutions</p>
+     </div>
+     <div class="certifications-grid"><!-- Certification 1 -->
+      <div class="certification-card stagger-animate">
+       <div class="certification-icon">
+        <img src="./assets/Coursera logo -1.webp" alt="Coursera Logo" class="institute-logo">
+       </div>
+       <h3 class="certification-title">Web Dev Specialization</h3>
+       <div class="certification-issuer">Coursera</div>
+       <p class="certification-details">Comprehensive web development course covering HTML, CSS, JavaScript, responsive design, and modern frameworks.</p><a href="https://www.coursera.org/verify/XXXXXX" target="_blank" class="verify-btn"><span class="verify-btn-icon">🔗</span> Verify Certificate</a>
+      </div><!-- Certification 2 -->
+      <div class="certification-card stagger-animate">
+       <div class="certification-icon">
+        <img src="./assets/Saylani logo2.jpg" alt="Saylani Logo" class="institute-logo">
+       </div>
+       <h3 class="certification-title">Web App Development</h3>
+       <div class="certification-issuer">Saylani Welfare Trust</div>
+       <p class="certification-details">Full-stack web application development training with focus on practical implementation and industry best practices.</p><a href="https://saylani.org/verify/XXXXXX" target="_blank" class="verify-btn"><span class="verify-btn-icon">🔗</span> Verify Certificate</a>
+      </div><!-- Certification 3 -->
+      <div class="certification-card stagger-animate">
+       <div class="certification-icon">
+        <img src="./assets/Navttic logo3.jfif" alt="NAVTTC Logo" class="institute-logo">
+       </div>
+       <h3 class="certification-title">MEAN/MERN Stack </h3>
+       <div class="certification-issuer">NAVTTIC</div>
+       <p class="certification-details">Advanced training in both MEAN (MongoDB, Express, Angular, Node.js) and MERN (MongoDB, Express, React, Node.js) stacks.</p><a href="https://navttc.gov.pk/verify/XXXXXX" target="_blank" class="verify-btn"><span class="verify-btn-icon">🔗</span> Verify Certificate</a>
+      </div><!-- Certification 4 -->
+      <div class="certification-card stagger-animate">
+       <div class="certification-icon">
+        <img src="./assets/Google logo4.jpg" alt="Google Logo" class="institute-logo">
+       </div>
+       <h3 class="certification-title">Figma UI/UX Design</h3>
+       <div class="certification-issuer">Google</div>
+       <p class="certification-details">User interface and experience design certification covering wireframing, prototyping, and design systems using Figma.</p><a href="https://grow.google/verify/XXXXXX" target="_blank" class="verify-btn"><span class="verify-btn-icon">🔗</span> Verify Certificate</a>
+      </div>
+     </div>
+    </div>
+   </section><!-- Client Reviews Section -->
+   <section class="reviews-section scroll-animate" id="reviews">
+    <div class="reviews-container">
+     <div class="section-header scale-in">
+      <h2 class="section-title">Client Reviews</h2>
+      <p class="section-subtitle">What my clients say about working with me</p>
+     </div>
+     <div class="reviews-grid"><!-- Review 1 -->
+      <div class="review-card stagger-animate">
+       <div class="review-content">
+        Working with Eng-apdalla was an absolute pleasure. They delivered a stunning e-commerce platform that exceeded our expectations. Their attention to detail and problem-solving skills are exceptional.
+       </div>
+       <div class="reviewer-info">
+        <div class="reviewer-avatar">
+         <img src="./WhatsApp Image 2025-05-03 at 20.41.11_3cae5e92.jpg" alt="Drs farhio">
+        </div>
+        <div class="reviewer-details">
+         <h4 class="reviewer-name">Drs farhio</h4>
+         <p class="reviewer-position">CEO, TechSolutions Inc.</p>
+         <div class="review-rating">
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span>
+         </div>
+        </div>
+       </div>
+      </div><!-- Review 2 -->
+      <div class="review-card stagger-animate">
+       <div class="review-content">
+        The portfolio website they created for our agency is simply breathtaking. Their design sensibilities combined with technical expertise resulted in a perfect digital representation of our brand.
+       </div>
+       <div class="reviewer-info">
+        <div class="reviewer-avatar">
+         <img src="./WhatsApp Image 2025-05-18 at 22.06.35_09fc5a19.jpg" alt="Sumaya hussien">
+        </div>
+        <div class="reviewer-details">
+         <h4 class="reviewer-name">sumayo hussien</h4>
+         <p class="reviewer-position">Creative Director, DesignHub</p>
+         <div class="review-rating">
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span>
+         </div>
+        </div>
+       </div>
+      </div><!-- Review 3 -->
+      <div class="review-card stagger-animate">
+       <div class="review-content">
+        Professional, timely, and highly skilled. Our fitness app came to life exactly as envisioned. Their ability to understand complex requirements and translate them into functional code is impressive.
+       </div>
+       <div class="reviewer-info">
+        <div class="reviewer-avatar">
+         <img src="./WhatsApp Image 2025-10-25 at 09.32.09.jpeg" alt="Eng Caamir">
+        </div>
+        <div class="reviewer-details">
+         <h4 class="reviewer-name">Eng Caamir</h4>
+         <p class="reviewer-position">Founder, FitTrack Pro</p>
+         <div class="review-rating">
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span>
+         </div>
+        </div>
+       </div>
+      </div><!-- Review 4 -->
+      <div class="review-card stagger-animate">
+       <div class="review-content">
+        As a startup, we needed someone versatile who could handle both design and development. Eng apdalla delivered on both fronts exceptionally well. Our branding and website are now our strongest assets.
+       </div>
+       <div class="reviewer-info">
+        <div class="reviewer-avatar">
+         <img src="./WhatsApp Image 2025-10-23 at 17.12.56 (1).jpeg" alt="Eng saciid">
+        </div>
+        <div class="reviewer-details">
+         <h4 class="reviewer-name">Eng saciid</h4>
+         <p class="reviewer-position">Co-Founder, StartupXYZ</p>
+         <div class="review-rating">
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span> 
+            <span class="star">⭐</span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Contact Section -->
+   <section class="contact-section scroll-animate" id="contact">
+    <div class="contact-container">
+     <div class="section-header scale-in">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Let's discuss your next project or just say hello</p>
+     </div>
+     <div class="contact-grid"><!-- Contact Information -->
+      <div class="contact-info fade-in-left">
+       <div class="contact-item">
+        <div class="contact-icon">
+         📧
+        </div>
+        <div class="contact-details">
+         <h3>Email</h3>
+         <p>apdullahiiprahim1@gmail.com</p>
+         <p>Response within 24 hours</p>
+        </div>
+       </div>
+       <div class="contact-item">
+        <div class="contact-icon">
+         📱
+        </div>
+        <div class="contact-details">
+         <h3>Phone</h3>
+         <p>+252613560944</p>
+         <p>satarday sunday monday and friday : 9am - 6pm</p>
+        </div>
+       </div>
+       <div class="contact-item">
+        <div class="contact-icon">
+         📍
+        </div>
+        <div class="contact-details">
+         <h3>Location</h3>
+         <p>Web Developer & Designer</p>
+         <p>Available for remote work worldwide</p>
+        </div>
+       </div>
+       <div class="contact-item">
+        <div class="contact-icon">
+         ⏰
+        </div>
+        <div class="contact-details">
+         <h3>Working 24 Hours</h3>
+         <p>satarday sunday monday and friday : 9am - 6pm</p>
+         <p>Weekends: Available for urgent projects</p>
+        </div>
+       </div>
+      </div><!-- Contact Form -->
+      <form class="contact-form fade-in-right" id="contact-form">
+       <div class="form-group">
+        <label class="form-label">Full Name</label> <input type="text" class="form-input" name="name" id="contact-name" placeholder="Enter your name" required>
+       </div>
+       <div class="form-group">
+        <label class="form-label">Email Address</label> <input type="email" class="form-input" name="email" id="contact-email" placeholder="Enter your email" required>
+       </div>
+       <div class="form-group">
+        <label class="form-label">Subject</label> <input type="text" class="form-input" name="subject" id="contact-subject" placeholder="Project inquiry or general question" required>
+       </div>
+       <div class="form-group">
+        <label class="form-label">Message</label> <textarea class="form-textarea" name="message" id="contact-message" placeholder="Tell me about your project or ask me anything..." required></textarea>
+       </div><button type="submit" class="submit-btn" id="contact-submit"><span class="submit-btn-icon">🚀</span> Send Message</button>
+      </form>
+     </div>
+    </div>
+   </section><!-- Footer -->
+   <footer class="footer">
+    <div class="footer-container">
+     <div class="footer-content"><!-- Logo and Description -->
+      <div class="footer-about">
+       <h3 class="footer-logo">apdullahi</h3>
+       <p class="footer-description">Full Stack Web Developer & Graphic Designer creating beautiful digital experiences with modern technologies and creative solutions.</p>
+       <div class="footer-social"><a href="https://wa.me/613560944" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a> <a href="mailto:apdullahiiprahim1@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a> <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a> <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+       </div>
+      </div><!-- Quick Links -->
+      <div class="footer-links">
+       <h3>Quick Links</h3>
+       <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+       </ul>
+      </div><!-- More Links -->
+      <div class="footer-links">
+       <h3>More Links</h3>
+       <ul>
+        <li><a href="#reviews">Client Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+       </ul>
+      </div><!-- Contact Info -->
+      <div class="footer-contact">
+       <h3>Contact Info</h3>
+       <p><i class="fas fa-envelope"></i> apdullahiiprahim1@gmail.com</p>
+       <p><i class="fas fa-phone"></i> +252613560944</p>
+       <p><i class="fas fa-map-marker-alt"></i> Available for Remote Work</p>
+       <p>Worldwide</p>
+      </div>
+     </div>
+     <div class="footer-bottom">
+      <p>© 2025 Eng apdalla Portfolio. All rights reserved. | Designed with ❤️ by Eng-apdalla</p>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script src="script.js"></script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a7b01ab00e924d9',t:'MTc2NDY4MDQyMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
